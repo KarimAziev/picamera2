@@ -2,7 +2,7 @@ name: Pyright static type checking
 
 on:
   pull_request:
-    branches: [ main, next ]
+    branches: ['*']
   workflow_dispatch:
 
 jobs:
